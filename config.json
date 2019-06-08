@@ -1,0 +1,15 @@
+{
+  "db_file": "db.json",
+  "wait_time": 900,
+  "sendgrid": {
+    "api_key": "<INSERT YOUR SEND GRID API KEY HERE>",
+    "send_to": "<INSERT YOUR SEND_TO EMAIL HERE>",
+    "send_from": "<INSERT ANY SEND_FRON EMAIL HERE>"
+  },
+  "tasks": [
+    {
+      "name": "<INSERT ANY TASK NAME HERE>",
+      "url": "<INSERT YOUR YAD2 SEARCH RESULTS URL HERE>"
+    }
+  ]
+}
