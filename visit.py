@@ -28,7 +28,7 @@ def visit_all_tasks(config, db):
                 try:
                     # logging.info("Parsing next item...")
                     div = item.find_by_tag("div").first
-                    item_id = div['itemid']
+                    item_id = div['item-id']
                     item_url = "https://www.yad2.co.il/s/c/" + item_id
                     if item_id not in db[task_name]:
                         logging.info("*** New item detected: %s", item_url)
